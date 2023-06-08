@@ -8,6 +8,10 @@
   "files": [
     "dist/**"
   ],
+  "publishConfig": {
+    "@seongpil0948:registry": "https://npm.pkg.github.com",
+    "@abacus:registry": "https://npm.pkg.github.com"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
