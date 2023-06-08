@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   resolve: {
     alias: [{ find: "@", replacement: "/src" }],
-    // alias: [{ find: "@abacus/playwright-excel-reporter", replacement: "/lib" }],
+    // alias: [{ find: "@seongpil0948/playwright-excel-reporter", replacement: "/lib" }],
   },
   optimizeDeps: {
     exclude: [
