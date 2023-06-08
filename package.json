@@ -1,6 +1,7 @@
 {
   "name": "@abacus/playwright-excel-reporter",
-  "version": "0.0.2",
+  "version": "1.0.0",
+  "private": false,
   "type": "module",
   "repository": "https://github.com/seongpil0948/playwright-excel-reporter",
   "description": "implement Custom Reporter of Playwrights",
