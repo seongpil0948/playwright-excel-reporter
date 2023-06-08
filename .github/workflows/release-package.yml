@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - main
-        - 'releases/**'
+      - "releases/**"
 jobs:
   build:
     timeout-minutes: 60
