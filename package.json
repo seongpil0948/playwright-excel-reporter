@@ -31,20 +31,19 @@
     "url": "https://github.com/seongpil0948/playwright-excel-reporter/issues"
   },
   "license": "ISC",
+  "dependencies": {
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
   "devDependencies": {
     "@playwright/test": "^1.51.0",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "@types/node": "^22.13.10",
     "rimraf": "^6.0.1",
     "rollup": "^4.35.0",
     "rollup-plugin-typescript2": "^0.36.0",
     "tslib": "^2.8.1",
     "typescript": "^5.8.2",
-    "vite": "^6.2.1",
-    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
-  },
-  "pnpm": {
-    "ignoredBuiltDependencies": [
-      "esbuild"
-    ]
+    "vite": "^6.2.1"
   }
 }
