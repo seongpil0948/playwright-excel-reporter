@@ -1,6 +1,6 @@
 {
   "name": "playwright-excel-reporter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "type": "module",
   "repository": "https://github.com/seongpil0948/playwright-excel-reporter",
